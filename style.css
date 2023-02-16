@@ -128,16 +128,17 @@ header{
     line-height: 53px;
     color: #131313;
     margin-bottom: 24px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
 }
-.feature-headline h2::after{
-    border-left: 6px solid #FF900E;
-    position: absolute;
-  /* height: 50px;
-  position: relative; */
-  /* left: 50%;
-  margin-left: -3px;
-  top: 0; */
-}
+/* .feature-headline h2::before{
+    margin-left: 20px;
+} */
+/* .feature-headline h2 {
+    border-left: 6px solid black;
+    height: 50px;
+    position:relative;
+} */
 .feature-headline p{
     font-weight: 400;
     font-size: 16px;
