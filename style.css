@@ -272,7 +272,54 @@ header{
     .banner-content{
         text-align: center;
     }
-
-
+    .featured-area{
+        display: flex;
+        flex-direction: row;
+        flex-direction: column-reverse;
+    }
+    .featured-content{
+        padding: 40px;
+        text-align: center;
+    }
+    .featured-image{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .bottom-feature-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom-feature-image{
+        width: 570px;
+        margin: auto;
+    }
+    .featured-btn{
+        position: relative;
+        left: 100px;
+    }
+    .facts-section h2{
+        text-align: center;
+    }
+    .facts-section p{
+        text-align: center;
+        margin: auto;
+    }
+    .facts{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .single-fact:hover{
+        transform: scale(1.05);
+        transition: transform .2s;
+    }
+    .sponsor-images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .copyright-section{
+        margin-bottom: 30px;
+    }
 
 }
